@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineHarmony</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/semua.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body class="bgg">
+  <!-- navigation -->
+  <nav class="navbar navbg navbar-expand-lg navbar-dark  shadow p-3 bg-body">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="asset/logo.png" width="30" height="30" class="d-inline-block align-top rounded-circle" alt="">
+              CineHarmony.
+            </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent" >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Hiburan
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="film.html">Film</a>
+                <a class="dropdown-item" href="musik.html">Musik</a>
+                <div class="dropdown-divider"></div>
+              </div>
+          <li class="nav-item">
+            <a class="nav-link" href="galeri.html">Galeri</a>
+          </li>
+         
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="langganan.html">Berlangganan</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control input-style mr-sm-2" type="search" placeholder="Telusuri" aria-label="Search">
+          <button class="btn button-bg" type="submit">Telusuri</button>
+        </form>
+      </div>
+  </div>
+    </nav>
+    <!-- navigation-end -->
+
+    <!-- pendaftaran -->
+    <div class="jumbotron bgg">
+        <div class="container">
+        <h1 class="display-4">Berlangganan sekarang</h1>
+        <p class="lead">Dengan berlangganan di CineHarmony Anda dapat mengakses Berita dan diskon terbaru dari Kami, kapanpun dan dimanapun.</p>
+        <hr class="my-4">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName4">Nama Depan</label>
+              <input type="text" class="form-control" id="inputName4" placeholder="Masukkan Nama Depan Anda">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName4">Nama Belakang</label>
+              <input type="text" class="form-control" id="inputName4" placeholder="Masukkan Nama Belakang Anda">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Alamat</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Masukkan Alamat Anda">
+          </div>
+          <div class="form-row">
+          <div class="form-group col-md-7">
+            <label for="inputAddress">Provinsi</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Masukkan Username">
+          </div>
+          <div class="form-group col-md-5">
+            <label for="inputAddress2">Kabupaten/Kota</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Masukkan Kabupaten/Kota Anda">
+          </div>
+        </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Nomor Telepon</label>
+              <input type="number" class="form-control" id="inputCity" placeholder="Masukkan Nomor Telepon">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">Metode Pembayaran</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>Transfer Bank</option>
+                <option>E-Wallet</option>
+                <option>Minimarket</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Kode Pos</label>
+              <input type="text" class="form-control" id="inputZip" placeholder="Kode Pos">
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">Buat Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Buat Password">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">Konfirmasi Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Konfirmasi Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">Jenis kelamin</label><br>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline1">Pria</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline2">Wanita</label>
+            </div>
+              </div>
+              <button type="submit" class="btn btn-lg btn-block  button-bg">Berlangganan Sekarang</button>
+        </form>
+        </div>
+      </div>
+      <!-- pndaftaran end -->
+
+      <!--Footer-->
+<footer class="footer-bg p-3 text-center shadow p-3">
+  Copyright © CineHarmony 2024.
+</footer>
+<!--Footer-end-->
+</body>
+</html>

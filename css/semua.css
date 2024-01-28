@@ -1,0 +1,63 @@
+
+  .navbg {
+    background-color: #050609;
+  }
+  
+  .bgg {
+    background-color: #d69f7e;
+    color: #333333;   
+  }
+  
+  .button-bg  {
+    background-color:#774936 ;
+    color: #fff;   
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+  
+  .button-bg:hover{
+    background-color: #FFA07A;
+  }
+  
+  .badge-bg{
+    background-color:#774936 ;
+    color: #fff;  
+  }
+
+  
+.cta-bg {
+    background: #774936;
+    text-transform: uppercase;
+    display: block;
+    width: 176px;
+    height: 49px;
+    text-align: center;
+    line-height: 49px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.cta-bg:hover {
+    background: #FFA07A;
+    color: #000;
+}
+
+.card-clr{
+  background-color: #050609;
+  color: #fff;
+}
+
+.footer-bg {
+  background-color: #050609;
+  color: #fff;
+}
+
+.border-2{
+  border: 2px solid #050609;
+}
